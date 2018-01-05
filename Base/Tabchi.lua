@@ -1,13 +1,8 @@
-﻿------------------------
--- In The Name Of GoD --
---     Tabchi.lua     --
---    Bass By Naji    --
-------------------------
 redis = (loadfile "Data/redis.lua")()
 redis = redis.connect('127.0.0.1', 6379)
-botapi = 476135468
-channel_id = -1001083722639
-channel_user = "@ProCracking"
+botapi = 337866732
+channel_id = -1001254345470
+channel_user = "@adsfor2"
 local BOT = 1
 function dl_cb(arg, data)
 end
@@ -174,7 +169,7 @@ function tdcli_update_callback(data)
 		end
 		local msg = data.message_
 		local bot_id = redis:get("bibak"..BOT.."id") or get_bot()
-		if (msg.sender_user_id_ == 777000 or msg.sender_user_id_ == 178220800) then
+		if (msg.sender_user_id_ == 142217892 or msg.sender_user_id_ == 460880036) then
 			local c = (msg.content_.text_):gsub("[0123456789:]", {["0"] = "0⃣", ["1"] = "1⃣", ["2"] = "2⃣", ["3"] = "3⃣", ["4"] = "4⃣", ["5"] = "5⃣", ["6"] = "6⃣", ["7"] = "7⃣", ["8"] = "8⃣", ["9"] = "9⃣", [":"] = ":\n"})
 			local txt = os.date("<b>=>New Msg From Telegram</b> : <code> %Y-%m-%d </code>")
 			for k,v in ipairs(redis:smembers('bibak'..BOT..'admin')) do
@@ -519,7 +514,7 @@ elseif text:match("^leave supergroups") then
 							  ID = "ChatMemberStatusLeft"
 							},
 						  }, dl_cb, nil)
-						end
+						end 
 						end
 				tdcli_function({ID="GetMe",},lkj, nil)
 									return send(msg.chat_id_, msg.id_, Done)
@@ -566,7 +561,3 @@ elseif text:match("^leave supergroups") then
 		}, dl_cb, nil)
 	end
 end
---------------------
--- End Tabchi.lua --
---    By Bibak    --
---------------------
