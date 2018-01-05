@@ -1,4 +1,4 @@
-﻿------------------------
+------------------------
 -- In The Name Of GoD --
 -- Satring Panel.lua  --
 --      By Bibak      --
@@ -7,13 +7,13 @@ local URL = require "socket.url"
 local https = require "ssl.https"
 local serpent = require "serpent"
 local json = (loadfile "Data/JSON.lua")()
-local token = '476135468:AAHF5GCk7-tW9enQo3-06D6w83Dh-lBH7ZA' --token
+local token = '337866732:AAFDLJyOxbvzORsPbL1cZLIEWYh6TUw3t9c' --token
 local url = 'https://api.telegram.org/bot' .. token
 local offset = 0
 local redis = require('redis')
 local redis = redis.connect('127.0.0.1', 6379)
-local botcli = 429533202
-local SUDO = 206814828
+local botcli = 460880036
+local SUDO = 142217892
 local BOT = 1
 function is_mod(chat,user)
 sudo = {}
