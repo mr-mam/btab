@@ -10,7 +10,7 @@ end
 	if redis:get('bibak'..BOT..'adminset') then
 		return true
 	else
-    	print("\n\27[36m                      @PrOCrackinG \n >> Admin UserID :\n\27[31m                 ")
+    	print("\n\27[36m                      @syberbot_official \n >> Admin UserID :\n\27[31m                 ")
     	local admin=io.read()
 		redis:del("bibak"..BOT.."admin")
     	redis:sadd("bibak"..BOT.."admin", admin)
