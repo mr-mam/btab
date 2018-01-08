@@ -194,7 +194,7 @@ local name = redis:get("bibak"..BOT.."fname")
 		local keyboard = {}
 							keyboard.inline_keyboard = {
 								{
-                   {text = 'BG TeaM ⇜', url = 'https://t.me/PrOCrackinG'}
+                   {text = 'syber team ⇜', url = 'https://t.me/syberbot_official'}
 				}
 							}
               edit(q.inline_message_id,'▪️ انجام شد \n▪️ پنل با موفقیت بسته شد !',keyboard)
@@ -208,7 +208,7 @@ local name = redis:get("bibak"..BOT.."fname")
                    {text = '> Back', callback_data = 'firstmenu:'..chat}
 				}
 							}
-             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• reload bot\n• بروز کردن مشخصات ربات\n➖➖➖➖➖➖\n• share\n• دریافت شماره ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• leave\n•• لفت دادن تبچی از یک گروه\n\n• leave groups\n•• لفت دادن تبچی از کل گروه ها\n\n• leave supergroups\n•• لفت دادن تبچی از کل سوپرگروه ها\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [Bibak](https://t.me/bannedbylife)\n▪▪▪ کانال :\n▪▪▪ [BG TeaM](https://t.me/PrOCrackinG)'
+             local text = '•[⇩راهنمای دستورات⇩]•\n➖➖➖➖➖➖\n• modset USERID\n• افزودن ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• moddem USERID\n• حذف ادمین\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• link list\n• دریافت لیست لینک های ربات\n➖➖➖➖➖➖\n• fwd users\n• فروارد پیام به کاربران (با ریپلی)\n➖➖➖➖➖➖\n• fwd groups\n• فروارد پیام به گروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd sgroups\n• فروارد پیام به سوپرگروه ها (با ریپلی)\n➖➖➖➖➖➖\n• fwd all\n• فروارد پیام به همه (کاربران،گروه ها،سوپرگروه ها)،(با ریپلی)\n➖➖➖➖➖➖\n• on\n• اطلاع از آنلاین بودن ربات\n➖➖➖➖➖➖\n• addall USERID\n• افزودن کاربر مورد نظر به تمامیه گروه ها\n••• به جای USERID آیدی عددی کاربر مورد نظر را قرار دهید .\n\n➖➖➖➖➖➖\n• reload stats\n• ریست کردن امار ربات\n➖➖➖➖➖➖\n• reload bot\n• بروز کردن مشخصات ربات\n➖➖➖➖➖➖\n• share\n• دریافت شماره ربات\n➖➖➖➖➖➖\n• echo TEXT\n• تکرار کردن متن\n••• به جای TEXT متن مورد نظر را قرار دهید .\n➖➖➖➖➖➖\n• leave\n•• لفت دادن تبچی از یک گروه\n\n• leave groups\n•• لفت دادن تبچی از کل گروه ها\n\n• leave supergroups\n•• لفت دادن تبچی از کل سوپرگروه ها\n➖➖➖➖➖➖\n▪ از انتشار این سورس به هیچ وجه راضی نمیباشیم ...\n▪▪ نوشته شده توسط :\n▪▪ [syber team](https://t.me/syberbot_official)\n▪▪▪ کانال :\n▪▪▪ [MrMaM](https://t.me/moarmo)'
  edit(q.inline_message_id,""..text.."",keyboard)
             end
 --------Info-------#Bibak
@@ -620,12 +620,12 @@ local keyboard = {}
     local keyboard = {}
     keyboard.inline_keyboard = {
          {
-				 {text = '• کانال ما', url = 'https://t.me/PrOCrackinG'}
+				 {text = '• کانال ما', url = 'https://t.me/syberbot_official'}
                 },{
-                   {text = '• نویسنده سورس', url = 'https://t.me/aa_Bibak'}
+                   {text = '• نویسنده سورس', url = 'https://t.me/moarmo'}
 				   }
 							}
-        sendmsg(m.chat.id, "• هلپر هم اکون انلاین میباشد !", keyboard, true)
+        sendmsg(m.chat.id, "• هلپر هم اکنون انلاین میباشد !", keyboard, true)
       end
    end
       end
